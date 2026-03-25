@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinguaBattle - Gizlilik Politikası / Privacy Policy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a1a;
+            color: #e0e0e0;
+            line-height: 1.7;
+            padding: 20px;
+        }
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 40px 24px;
+        }
+        h1 {
+            color: #fff;
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: #888;
+            font-size: 14px;
+            margin-bottom: 32px;
+        }
+        h2 {
+            color: #a78bfa;
+            font-size: 18px;
+            margin-top: 28px;
+            margin-bottom: 12px;
+        }
+        p {
+            color: #ccc;
+            font-size: 15px;
+            margin-bottom: 16px;
+        }
+        a { color: #a78bfa; }
+        .lang-switch {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+        .lang-btn {
+            padding: 8px 20px;
+            border-radius: 8px;
+            border: 1px solid #333;
+            background: transparent;
+            color: #888;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .lang-btn.active {
+            background: #a78bfa22;
+            border-color: #a78bfa;
+            color: #a78bfa;
+            font-weight: bold;
+        }
+        .section { display: none; }
+        .section.active { display: block; }
+        .contact-box {
+            margin-top: 32px;
+            padding: 20px;
+            background: #111;
+            border-radius: 12px;
+            border: 1px solid #222;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switch">
+            <button class="lang-btn active" onclick="switchLang('tr')">🇹🇷 Türkçe</button>
+            <button class="lang-btn" onclick="switchLang('en')">🇬🇧 English</button>
+        </div>
+
+        <!-- TÜRKÇE -->
+        <div id="tr" class="section active">
+            <h1>🛡️ Gizlilik Politikası</h1>
+            <p class="subtitle">Son güncelleme: Mart 2026</p>
+
+            <h2>1. Toplanan Veriler</h2>
+            <p>LinguaBattle, dil öğrenme deneyiminizi kişiselleştirmek için şu verileri toplar: e-posta adresi (kayıt için), kullanıcı adı, profil fotoğrafı (isteğe bağlı), öğrenme istatistikleri (öğrenilen kelimeler, tamamlanan dersler, düello sonuçları) ve streak bilgileri.</p>
+
+            <h2>2. Verilerin Kullanımı</h2>
+            <p>Verileriniz yalnızca şu amaçlarla kullanılır: hesap oluşturma ve giriş, öğrenme ilerlemesinin takibi, liderlik tablosu ve düello eşleştirme, bildirim gönderimi (izninizle) ve uygulama deneyiminin iyileştirilmesi.</p>
+
+            <h2>3. Güvenlik</h2>
+            <p>Tüm veriler Google Firebase'de şifreli olarak saklanır. Profil fotoğrafları yalnızca size ve düello rakiplerinize görünür.</p>
+
+            <h2>4. Reklamlar</h2>
+            <p>Google AdMob kullanarak reklam gösteriyoruz. AdMob, reklamları kişiselleştirmek için cihaz tanımlayıcıları kullanabilir. Premium üyelik tüm reklamları kaldırır.</p>
+
+            <h2>5. Hesap ve Veri Silme</h2>
+            <p>Hesabınızı silmek için: Profil → Hesabı Sil adımlarını izleyin. Hesap silindiğinde tüm kişisel verileriniz Firebase'den kalıcı olarak kaldırılır. Bu işlem geri alınamaz.</p>
+
+            <h2>6. Üçüncü Taraf Hizmetler</h2>
+            <p>Bu uygulama şu üçüncü taraf hizmetleri kullanır: Google Firebase (kimlik doğrulama, veritabanı, depolama), Google AdMob (reklamlar), Google Play Billing (satın almalar). Bu hizmetlerin kendi gizlilik politikaları geçerlidir.</p>
+
+            <div class="contact-box">
+                <h2>📬 İletişim</h2>
+                <p>Gizlilik politikamız veya verileriniz hakkında sorularınız için:<br>
+                E-posta: <a href="mailto:linguabattleapp@gmail.com">linguabattleapp@gmail.com</a><br>
+                Yanıt süresi: 3-5 iş günü.</p>
+            </div>
+        </div>
+
+        <!-- ENGLISH -->
+        <div id="en" class="section">
+            <h1>🛡️ Privacy Policy</h1>
+            <p class="subtitle">Last updated: March 2026</p>
+
+            <h2>1. Data We Collect</h2>
+            <p>LinguaBattle collects the following data to personalize your learning experience: email address (for registration), username, profile photo (optional), learning statistics (words learned, lessons completed, duel results), and streak information.</p>
+
+            <h2>2. How We Use Your Data</h2>
+            <p>Your data is used solely for: account creation and login, tracking learning progress, leaderboard and duel matchmaking, sending notifications (with your permission), and improving the app experience.</p>
+
+            <h2>3. Security</h2>
+            <p>All data is stored encrypted on Google Firebase. Profile photos are only visible to you and your duel opponents.</p>
+
+            <h2>4. Advertising</h2>
+            <p>We use Google AdMob to display ads. AdMob may use device identifiers to personalize ads. Premium membership removes all ads.</p>
+
+            <h2>5. Account & Data Deletion</h2>
+            <p>To delete your account: Profile → Delete Account. When deleted, all your personal data is permanently removed from Firebase. This action cannot be undone.</p>
+
+            <h2>6. Third-Party Services</h2>
+            <p>This app uses the following third-party services: Google Firebase (authentication, database, storage), Google AdMob (advertising), Google Play Billing (purchases). These services have their own privacy policies.</p>
+
+            <div class="contact-box">
+                <h2>📬 Contact</h2>
+                <p>Questions about our privacy policy or your data?<br>
+                Email: <a href="mailto:linguabattleapp@gmail.com">linguabattleapp@gmail.com</a><br>
+                Response time: 3-5 business days.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function switchLang(lang) {
+            document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+            document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+            document.getElementById(lang).classList.add('active');
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>
